@@ -4,19 +4,8 @@
   --netflix-white: #FFFFFF;
 }
 
-body {
-  background-color: var(--netflix-black); 
-  color: var(--netflix-white); 
-}
-header {
-  text-align: center;
-  font-size: 2rem; 
-  margin: 20px 0;
-  align-items: center;
-  color: var(--netflix-red); 
-}
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
     transition: 0.3s;
     width: 350px;
     border-radius: 5px;
@@ -33,6 +22,8 @@ header {
   }
   .card:hover {
     transform: translateY(-10px) rotateX(10deg) rotateY(5deg) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+
   }
   
   .movie-list {
@@ -45,6 +36,9 @@ header {
     display: flex;
     justify-content: center;
     width:80%;
+    padding:  10px;
+    margin: auto;
+
   }
   #moviePoster {
     display: flex;
@@ -72,9 +66,16 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
+
   }
   
   .load-more-btn:hover {
-    background-color: #c5000d; /* Darker shade of red on hover */
+    background-color: #c5000d; 
+    box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+
   }
 
+#sort {
+  position: center;
+}

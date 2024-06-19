@@ -1,0 +1,14 @@
+
+/* Footer Styles */
+#footer {
+    background: linear-gradient(90deg, #831010, #db0000);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: center; 
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
