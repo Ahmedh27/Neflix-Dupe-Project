@@ -153,6 +153,8 @@ const MovieList = () => {
         </div>
 
         {activeView === "search" && (
+        <div className="large-search">
+
           <div className="search-container">
             <input
               className="search"
@@ -161,14 +163,15 @@ const MovieList = () => {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button onClick={handleSearch} id="submit-search">
-              Search
-            </button>
+          <button onClick={handleSearch} id="submit-search">
+           <i className="fa fa-search"></i> 
+          </button>
+          </div>
           </div>
         )}
 
         <div className="sort-container">
-          <label htmlFor="sort">Sort by:</label>
+          <label htmlFor="sort"></label>
           <select id="sort" value={sortBy} onChange={handleSortChange}>
             <option value="">Select</option>
             <option value="popularity.desc">Popularity</option>

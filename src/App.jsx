@@ -12,6 +12,7 @@ const App = () => {
 
       <MovieList />
       <Footer />
+      
 
     </div>
   )

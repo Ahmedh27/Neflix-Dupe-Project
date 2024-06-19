@@ -5,77 +5,86 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
-    transition: 0.3s;
-    width: 350px;
-    border-radius: 5px;
-    padding: 10px;
-    background: var(--netflix-red);
-    color: var(--netflix-white);    
-    margin: 20px;
-    overflow: hidden;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  .card:hover {
-    transform: translateY(-10px) rotateX(10deg) rotateY(5deg) scale(1.05);
-    box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
+  transition: 0.3s;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  background: var(--netflix-red);
+  color: var(--netflix-white);    
+  margin: 20px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
-  
-  .movie-list {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-  }
-  
-  #movieTitle {
-    display: flex;
-    justify-content: center;
-    width:80%;
-    padding:  10px;
-    margin: auto;
+.card:hover {
+  transform: translateY(-10px) rotateX(10deg) rotateY(5deg) scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+}
 
-  }
-  #moviePoster {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
+.movie-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+}
 
-    
-  }
-  #movieRating{
-    font-family:'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    margin:10px;
-  
-  }
-  
-  .load-more-btn {
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: var(--netflix-red);
-    color: var(--netflix-white);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
+#movieTitle {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
 
-  }
-  
-  .load-more-btn:hover {
-    background-color: #c5000d; 
-    box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+#moviePoster {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
 
-  }
+#movieRating {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
 
-#sort {
-  position: center;
+.load-more-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: var(--netflix-red);
+  color: var(--netflix-white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.9);
+}
+
+.load-more-btn:hover {
+  background-color: #c5000d; 
+  box-shadow: 0 4px 8px 0 rgba(255, 58, 58, 0.9);
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--netflix-white);
+  font-size: 1.5rem;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.favorite-button.favorite {
+  color: black; /* Red color when marked as favorite */
+}
+
+.favorite-button:hover {
+  color: grey; /* Lighter red on hover */
 }
