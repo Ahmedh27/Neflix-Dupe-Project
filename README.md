@@ -45,11 +45,11 @@ Deployed Application: [Flixster Deployed Site](https://vite-project-r12c.onrende
 
 ### Walkthrough Video
 `<div>
-    <a href="https://www.loom.com/share/40a61f631c9046e3a618a10162336a9c">
-      <p>Flixer Project FTL - Watch Video</p>
+    <a href="https://www.loom.com/share/4e535daf075c4b31be97dfb4f39c8b17">
+      <p>Flixster Project - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/40a61f631c9046e3a618a10162336a9c">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/40a61f631c9046e3a618a10162336a9c-with-play.gif">
+    <a href="https://www.loom.com/share/4e535daf075c4b31be97dfb4f39c8b17">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4e535daf075c4b31be97dfb4f39c8b17-with-play.gif">
     </a>
   </div>`
 
